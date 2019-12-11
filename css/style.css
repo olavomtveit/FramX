@@ -1,0 +1,522 @@
+/*font-family: 'Gelasio', serif;*/
+/*font-family: 'Gupter', serif;*/
+@import url('https://fonts.googleapis.com/css?family=Gelasio|Gupter&display=swap');
+
+body {
+    margin: 0;
+    height: 1000px;
+}
+h2 h3 h4{
+    font-family: 'Gupter', serif;
+}
+h2{
+    border-bottom: 2px dotted #2E59A8;
+    text-align: center;
+}
+p {
+    font-family: 'Gelasio', serif;
+}
+h3{
+    font-size: 14px;
+}
+.section-header {
+    margin-bottom: 50px;
+}
+
+.section-header h2 {
+    background-color: #333333;
+    border-bottom: none;
+    padding: 20px;
+    color: white;
+    margin: 0;
+}
+
+header {
+    background-image: url(../img/phonelaptop5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 95vh;
+}
+
+.header-box {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 40px;
+    width: 80%;
+    /* background-color: #333333; */
+    border-radius: 5%;
+    opacity: 0.8;
+}
+
+.header-box h2 {
+    border-bottom: none;
+    font-size: 20px;
+}
+
+.logo {
+    width: 100%;
+    margin-top: 0px;
+}
+
+.dropdown {
+    position: fixed;
+    display: none;
+    width: 100%;
+    top: -3px;
+    z-index: 1;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    height: 19px;
+    width: 100%;
+    border: none;
+}
+
+.dropdown-content {
+    display: none;
+    text-align: center;
+    /* background-color: black; */
+    background: linear-gradient(180deg, black 75%, white 100%);
+    padding-top: 12px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+    width: 10%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.mobile-menu {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #2E59A8;
+    text-align: center;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.mobile-menu a {
+    display: inline-block;
+    color: white;
+}
+
+.mobile-image {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.mobile-home {
+    background-image: url(../img/icon/home.png);
+}
+
+.mobile-about {
+    background-image: url(../img/icon/about.png);
+}
+
+.mobile-contact {
+    background-image: url(../img/icon/contact.png);
+}
+
+.mobile-work {
+    background-image: url(../img/icon/work.png);
+}
+
+.mobile-arrow {
+    display: inline-block;
+    padding: 12px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+
+    position: absolute;
+    left: 49vw;
+}
+
+.front-arrow1 {
+    border: solid #2E59A8;
+    border-width: 0 4px 4px 0;
+    bottom: 75px;
+}
+
+.front-arrow2 {
+    border: solid #F16127;
+    border-width: 0 4px 4px 0;
+    bottom: 85px;
+}
+
+.about-flex-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.aboutus {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.aboutus-image {
+    display: block;
+    width: 100%;
+
+}
+
+.contact-flex-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    margin-bottom: 80px;
+}
+
+.contact {
+    margin-bottom: 60px;
+}
+.social-img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 10px;
+}
+
+.email {
+    background-image: url(../img/icon/email.png);
+
+}
+
+.linkedin {
+    background-image: url(../img/icon/linkedin.png);
+}
+
+.twitter {
+    background-image: url(../img/icon/twitter.png);
+}
+
+.portrait {
+    width: 100%;
+}
+
+.work-flex-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.work {
+    margin-bottom: 40px;
+}
+
+.app-img {
+    width: 100%;
+}
+
+.github-links {
+    text-align: center;
+    background-color: #2E59A8;
+    margin-bottom: -20px;
+}
+
+.github-flex {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.github-icon {
+
+    background-size: contain;
+    display: block;
+    width: 75px;
+    height: 75px;
+}
+
+.github-fram {
+    background-image: url(../img/icon/github-fram.png);
+}
+
+.github-chr {
+    background-image: url(../img/icon/github-chrfalch.png);
+}
+
+footer {
+    background-color: #333333;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+
+footer h2 {
+    border-bottom: none;
+    padding-top: 30px;
+    color: white;
+}
+
+footer p {
+    color: white;
+}
+
+.map-icon {
+
+    background-image: url(../img/icon/map.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+}
+
+.footer-flex-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.footer-flex {
+    width: 35%;
+}
+@media screen and (min-width: 768px) {
+    h3{
+        font-size: 16px;
+    }
+    .mobile-menu {
+        display: none;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    header {
+        height: 100vh;
+    }
+
+    .header-box {
+        margin-left: 160px;
+        margin-top: 80px;
+    }
+
+    .header-box h2 {
+        font-size: 32px;
+        margin-right: 150px;
+    }
+
+    .logo {
+        width: 80%;
+    }
+
+    .mobile-arrow {
+        padding: 12px;
+        left: 49vw;
+
+        margin-bottom: 20px;
+    }
+
+    .front-arrow1 {
+        border-width: 0 4px 4px 0;
+        bottom: 0px;
+    }
+
+    .front-arrow2 {
+        border-width: 0 4px 4px 0;
+        bottom: 10px;
+    }
+
+    .aboutus {
+        width: 45%;
+    }
+
+    .about-flex-container {
+        justify-content: space-between;
+    }
+
+    .about-flex-container2 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .aboutus2 {
+        width: 50%;
+    }
+
+    .contact-flex-container {
+        justify-content: space-between;
+    }
+
+    .contact {
+        width: 45%;
+    }
+
+    .contact p {
+        height: 120px;
+    }
+
+    .work-flex-container {
+        justify-content: space-between;
+    }
+
+    .work {
+        width: 20%;
+    }
+    .work h2{
+        height: 100px;
+    }
+
+    header {
+        background-image: url(../img/phonelaptop3.jpg);
+    }
+
+    .github-flex {
+        width: 40%;
+    }
+    footer{
+        height: 250px;
+    }
+    .footer-flex-container{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .logo {
+        width: 60%;
+        margin-left: 130px;
+    }
+
+    .header-box h2 {
+        margin-left: 40px;
+    }
+
+    .github-flex {
+        width: 30%;
+    }
+    .social-img{
+        margin-top: -30px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .logo {
+        margin-left: 250px;
+    }
+
+    .header-box h2 {
+        font-size: 40px;
+        margin-left: 100px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+    .github-icon{
+        width: 125px;
+        height: 125px;
+    }
+    .github-links{
+        margin-bottom: -30px;
+    }
+    .map-icon{
+        width: 150px;
+        height: 150px;
+    }
+    .social-img{
+        width: 75px;
+        height: 75px;
+        margin: 30px;
+        margin-top: 40px;
+    }
+    footer{
+        height: 350px;
+    }
+}
+@media screen and (min-width: 1920px){
+    .logo{
+        margin-left: 400px;
+    }
+    .header-box h2{
+        font-size: 50px;
+        margin-left: 200px;
+    }
+    h2{
+        font-size: 45px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 36px;
+    }
+    p{
+        font-size: 32px;
+    }
+    .social-img{
+        width: 100px;
+        height: 100px;
+        margin-top: 80px;
+    }
+    .github-links{
+        margin-bottom: -40px;
+    }
+    footer{
+        height: 400px;
+    }
+    .map-icon{
+        width: 200px;
+        height: 200px;
+    }
+}
